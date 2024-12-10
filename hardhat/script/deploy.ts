@@ -2,7 +2,7 @@ import hardhat from "hardhat";
 
 const deploy_contract = async (): Promise<string> => {
   try {
-    const my_contract = await hardhat.ethers.getContractFactory("contract");
+    const my_contract = await hardhat.ethers.getContractFactory("Information");
     const contract = await my_contract.deploy();
     return contract.target.toString();
   } catch (error) {
