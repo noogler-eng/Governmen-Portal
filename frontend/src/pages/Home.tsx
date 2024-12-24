@@ -1,13 +1,13 @@
 import Features from "../components/home-page/Features";
 import Hero from "../components/home-page/Hero";
-import Stats from "../components/home-page/Stats";
+import Contacts from "../components/home-page/contacts";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
       <Hero />
       <Features />
-      <Stats />
+      <Contacts />
     </div>
   );
 }

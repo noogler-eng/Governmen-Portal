@@ -1,5 +1,6 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import DropDown from "./DropDown";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const routers = [
@@ -63,7 +64,7 @@ export default function Navbar() {
 
   return (
     <div className="flex items-center justify-between p-4 fixed w-screen z-10 bg-transparent px-6 py-4 transition-all duration-300 ease-in-out backdrop-blur-lg bg-white/50">
-      <div className="text-4xl font-extrabold underline">Govt.Portal</div>
+      <div className="text-4xl font-extrabold underline"><Link to='/'>Govt.Portal</Link></div>
       <div className="flex items-center gap-2">
         <div className="flex items-center gap-2">{navigations}</div>
         <div>

@@ -2,7 +2,7 @@ import Button from "../resuable/Button";
 
 export default function Hero() {
   return (
-    <div className="min-h-screen flex items-center justify-center px-24 gap-16 border">
+    <div className="min-h-screen flex items-center justify-center px-24 gap-16">
       <div className="flex flex-col gap-8 w-5/6">
         <div className="flex flex-col gap-1">
           <h2 className="text-6xl font-extrabold">Govt.Portal</h2>

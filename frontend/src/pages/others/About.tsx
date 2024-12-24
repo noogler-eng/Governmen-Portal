@@ -32,7 +32,7 @@ export default function About() {
             <a
               href="https://x.com/SharadPoddar11"
               target="_blank"
-              className="text-gray-300 hover:text-gray-400 flex border-2 px-10 py-4 rounded-full items-center gap-4 drop-shadow-2xl w-full shadow-lg shadow-blue-700/50"
+              className="text-gray-300 hover:text-gray-400 flex border-2 px-10 py-4 rounded-full items-center gap-4 drop-shadow-2xl w-full shadow-lg shadow-blue-700/50 font-mono"
             >
               my github account
               <Github size={20} />
@@ -40,7 +40,7 @@ export default function About() {
             <a
               href="https://github.com/noogler-eng"
               target="_blank"
-              className="flex text-gray-300 hover:text-gray-400 border-2 px-10 py-4 rounded-full items-center gap-4 drop-shadow-2xl w-full shadow-lg shadow-blue-700/50"
+              className="flex text-gray-300 hover:text-gray-400 border-2 px-10 py-4 rounded-full items-center gap-4 drop-shadow-2xl w-full shadow-lg shadow-blue-700/50 font-mono"
             >
               my twitter account
               <Twitter size={20} />
@@ -48,7 +48,7 @@ export default function About() {
             <a
               href="https://leetcode.com/u/sharadpoddar1001/"
               target="_blank"
-              className="flex text-gray-300 hover:text-gray-400 border-2 px-10 py-4 rounded-full items-center gap-4 drop-shadow-2xl w-full shadow-lg shadow-blue-700/50"
+              className="flex text-gray-300 hover:text-gray-400 border-2 px-10 py-4 rounded-full items-center gap-4 drop-shadow-2xl w-full shadow-lg shadow-blue-700/50 font-mono"
             >
               my leetcode account
               <Cpu size={20} />
